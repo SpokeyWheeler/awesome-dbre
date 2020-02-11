@@ -34,9 +34,9 @@ zabbix
 
 ## Testing
 
-DBunit
+dbunit
 
-DBFit
+dbfit
 
 ## SQL Clients
 
@@ -48,4 +48,4 @@ squirrelsql
 
 ## Management Utilities
 
-Percona Toolkit
+percona toolkit
