@@ -1,111 +1,137 @@
 # Awesome DBRE
-A curated list of awesome free and open-source tools for and knowledge about DBRE
+A curated list of awesome free and open-source tools for and knowledge about database reliability engineering
 
-## Version Control for Databases
+## Automation
 
-[activerecord](https://guides.rubyonrails.org/active_record_migrations.html)
 
-[db](https://github.com/infostreams/db) (Open Source)
+
+## Version Control for Databases (AKA Schema Migration)
+
+[activerecord migrations](https://guides.rubyonrails.org/active_record_migrations.html) ruby on rails (Open Source) 
+
+[db](https://github.com/infostreams/db) (Open Source, mysql)
 
 [dbdeploy](http://dbdeploy.com/software/) (Open Source)
 
-[diffkit](http://www.diffkit.org/) (Open Source)
+[diffkit](http://www.diffkit.org/) (Open Source, jdbc)
 
-[flyway](https://flywaydb.org/) (Open Source)
+[flyway](https://flywaydb.org/) (Open Source, jdbc)
 
-[liquibase](http://www.liquibase.org/) (Open Source)
+[liquibase](http://www.liquibase.org/) (Open Source, jdbc)
 
-[mybatis](http://mybatis.org/migrations/index.html) (Open Source)
+[mybatis](http://mybatis.org/migrations/index.html) (Open Source, jdbc)
 
-[sqitch](https://sqitch.org/) (Open Source)
+[sqitch](https://sqitch.org/) platform agnostic, no orm, no framework! (Open Source)
 
 ## Anonymisation
 
-[anonimatron](https://realrolfje.github.io/anonimatron/) (Open Source)
+[anonimatron](https://realrolfje.github.io/anonimatron/) (Open Source, jdbc)
 
-[anonymize-it](https://github.com/elastic/anonymize-it) (Open Source)
+[anonymize-it](https://github.com/elastic/anonymize-it) supports faker (Open Source, elasticsearch)
 
-[arx](https://arx.deidentifier.org/) (Open Source)
+[arx](https://arx.deidentifier.org/) (Open Source, file, csv)
 
-[data anonymization](http://sunitparekh.github.io/data-anonymization/#) (Open Source)
+[data anonymization](http://sunitparekh.github.io/data-anonymization/#) (Open Source, activerecord)
 
-[fogger](https://github.com/TheSoftwareHouse/fogger) (Open Source)
+[fogger](https://github.com/TheSoftwareHouse/fogger) supports faker (Open Source, pecl)
 
-[jailer](https://github.com/Wisser/Jailer) (Open Source)
+[jailer](https://github.com/Wisser/Jailer) data subsetting (Open Source, jdbc)
 
 ## Monitoring
 
-[cortex](https://github.com/cortexproject/cortex) (Open Source)
+[cortex](https://github.com/cortexproject/cortex) clustered prometheus (Open Source)
 
-[grafana](https://grafana.com/) (Open Source)
+[grafana](https://grafana.com/) dashboards and graphing (Open Source)
 
-[graphite](https://graphiteapp.org/) (Open Source)
+[graphite](https://graphiteapp.org/) time series database for metrics with graphing (Open Source)
 
-[icinga](https://icinga.com/) (Open Source)
+[icinga](https://icinga.com/) push monitoring (Open Source)
 
-[influxdb](https://www.influxdata.com/) (Open Source)
+[influxdb](https://www.influxdata.com/) time series database for metrics (Open Source)
 
-[metrictank](https://github.com/grafana/metrictank) (Open Source)
+[metrictank](https://github.com/grafana/metrictank) clustered graphite (Open Source)
 
-[netdata](https://www.netdata.cloud/) (Open Source)
+[netdata](https://www.netdata.cloud/) out of the box monitoring and storage of hundreds of high resolution metrics 😍 (Open Source)
 
-[prometheus](https://prometheus.io/) (Open Source)
+[prometheus](https://prometheus.io/) pull monitoring time series database for metrics (Open Source)
 
-[timescaledb](https://www.timescale.com/) (Open Source)
+[timescaledb](https://www.timescale.com/) postgresql backend for time series data (Open Source)
 
-[zabbix](https://www.zabbix.com/) (Open Source)
+[zabbix](https://www.zabbix.com/) push monitoring (Open Source)
 
 ## Logging
 
-[elk stack](https://www.elastic.co/) (Open Source)
+[elk](https://www.elastic.co/) elasticsearch, logstash, kibana (Open Source)
 
 [fluentd](https://www.fluentd.org/) (Open Source)
 
 [graylog](https://www.graylog.org/) (Open Source)
 
-[logalyze](http://www.logalyze.com/) (Free)
+[logalyze](http://www.logalyze.com/) security-focused log analysis (Free)
 
-[loki](https://github.com/grafana/loki) (Open Source)
+[loki](https://github.com/grafana/loki) logging using Prometheus-like tagging model (Open Source)
+
+[nxlog](https://nxlog.co/products/nxlog-community-edition) (Open Source)
+
+[pgbadger](http://pgbadger.darold.net/) high-speed postgresql log analysis
+
+[pgcluu](http://pgcluu.darold.net/) postgresql cluster utilization
 
 ## Testing
 
-[dbunit](http://www.dbunit.org/) (Open Source)
+[dbunit](http://www.dbunit.org/) set a database to a known state for testing (Open Source, jdbc)
 
-[dbfit](http://dbfit.github.io/dbfit/index.html) (Open Source)
+[dbfit](http://dbfit.github.io/dbfit/index.html) unit tests for databases using the Fitnesse framework (Open Source, jdbc, .net)
 
-[inspec](https://www.inspec.io/) (Open Source)
+[faker](https://github.com/joke2k/faker) generate fake data (Open Source, python)
+
+[inspec](https://www.inspec.io/) compliance testing (Open Source, ruby)
+
+[supermarket](https://supermarket.chef.io/tools?type=compliance_profile) pre-built inspec profiles (Open Source)
+
+## Security
+
+[devsec](https://github.com/dev-sec) hardening framework (Open Source)
+
+[logalyze](http://www.logalyze.com/) security-focused log analysis (Free)
+
+[ossim](https://cybersecurity.att.com/products/ossim) SIEM (Open Source)
+
+[otx](https://cybersecurity.att.com/open-threat-exchange) open threat exchange (Open Source)
 
 ## SQL Clients
 
-[dbeaver](https://dbeaver.io/) (Open Source)
+[dbeaver](https://dbeaver.io/) (Open Source, java)
 
-[dbvis](https://www.dbvis.com/) (Free)
+[dbvis](https://www.dbvis.com/) (Free, java)
 
-[omnidb](https://omnidb.org/en/) (Open Source)
+[omnidb](https://omnidb.org/en/) (Open Source, java)
 
-[sql workbench/j](http://www.sql-workbench.eu/) (Open Source)
+[sql workbench/j](http://www.sql-workbench.eu/) (Open Source, java)
 
-[squirrelsql](http://www.squirrelsql.org/) (Open Source)
+[squirrelsql](http://www.squirrelsql.org/) (Open Source, java)
 
-## ORM
+## ORM / REST
 
-[gorm](https://gorm.io/) (Open Source)
+[gorm](https://gorm.io/) ORM (Open Source, go)
 
-[hibernate](https://hibernate.org/orm/) (Open Source)
+[hibernate](https://hibernate.org/orm/) ORM (Open Source, java)
 
-[prisma](https://www.prisma.io/) (Open Source)
+[prisma](https://www.prisma.io/) ORM (Open Source, javascript)
 
-[sandman2](https://github.com/jeffknupp/sandman2) (Open Source)
+[sandman2](https://github.com/jeffknupp/sandman2) zero-code REST API for any database 😱 (Open Source)
 
-[sequel](https://github.com/jeremyevans/sequel) (Open Source)
+[sequel](https://github.com/jeremyevans/sequel) ORM (Open Source, ruby)
 
-[sequelize](https://sequelize.org/) (Open Source)
-
-[sqlalchemy](https://www.sqlalchemy.org/) (Open Source)
+[sqlalchemy](https://www.sqlalchemy.org/) ORM (Open Source, python)
 
 ## Management Utilities
 
-[percona toolkit](https://www.percona.com/software/database-tools/percona-toolkit) (Open Source)
+[percona toolkit](https://www.percona.com/software/database-tools/percona-toolkit) (Open Source, mysql, mongodb)
+
+[don't do these things in postgresql](https://www.depesz.com/2020/01/28/dont-do-these-things-in-postgresql/) (Open Source, postgresql)
+
+[autodoc](https://github.com/cbbrowne/autodoc) schema documenter (Open Source, postgresql)
 
 ## Articles, Posts, and E-books
 
@@ -135,7 +161,7 @@ A curated list of awesome free and open-source tools for and knowledge about DBR
 
 [Database Chaos with Tammy Butow](https://softwareengineeringdaily.com/2018/04/10/database-chaos-with-tammy-butow/)
 
-## Shameful Self-Promotion
+## Shameful Self-Promotion 😳
 
 [What is your MVP?](https://medium.com/@william.wheeler_87363/dbre-what-is-your-mvp-fb8b5f79a19c)
 
