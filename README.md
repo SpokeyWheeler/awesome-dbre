@@ -1,124 +1,142 @@
 # Awesome DBRE
 A curated list of awesome free and open-source tools for and knowledge about DBRE
 
-# Table of Contents
-
 ## Version Control for Databases
 
-db
+[activerecord](https://guides.rubyonrails.org/active_record_migrations.html)
 
-dbdeploy
+[db](https://github.com/infostreams/db) (Open Source)
 
-flyway
+[dbdeploy](http://dbdeploy.com/software/) (Open Source)
 
-liquibase
+[diffkit](http://www.diffkit.org/) (Open Source)
 
-https://sqitch.org/
+[flyway](https://flywaydb.org/) (Open Source)
+
+[liquibase](http://www.liquibase.org/) (Open Source)
+
+[mybatis](http://mybatis.org/migrations/index.html) (Open Source)
+
+[sqitch](https://sqitch.org/) (Open Source)
 
 ## Anonymisation
 
-anonimator
+[anonimatron](https://realrolfje.github.io/anonimatron/) (Open Source)
 
-arx
+[anonymize-it](https://github.com/elastic/anonymize-it) (Open Source)
 
-fogger
+[arx](https://arx.deidentifier.org/) (Open Source)
 
-https://github.com/Wisser/Jailer
+[data anonymization](http://sunitparekh.github.io/data-anonymization/#) (Open Source)
+
+[fogger](https://github.com/TheSoftwareHouse/fogger) (Open Source)
+
+[jailer](https://github.com/Wisser/Jailer) (Open Source)
 
 ## Monitoring
 
-grafana
+[cortex](https://github.com/cortexproject/cortex) (Open Source)
 
-graphite
+[grafana](https://grafana.com/) (Open Source)
 
-influxdb
+[graphite](https://graphiteapp.org/) (Open Source)
 
-nagios
+[icinga](https://icinga.com/) (Open Source)
 
-netdata
+[influxdb](https://www.influxdata.com/) (Open Source)
 
-opentsdb
+[metrictank](https://github.com/grafana/metrictank) (Open Source)
 
-prometheus
+[netdata](https://www.netdata.cloud/) (Open Source)
 
-timescaledb
+[prometheus](https://prometheus.io/) (Open Source)
 
-zabbix
+[timescaledb](https://www.timescale.com/) (Open Source)
+
+[zabbix](https://www.zabbix.com/) (Open Source)
+
+## Logging
+
+[elk stack](https://www.elastic.co/) (Open Source)
+
+[fluentd](https://www.fluentd.org/) (Open Source)
+
+[graylog](https://www.graylog.org/) (Open Source)
+
+[logalyze](http://www.logalyze.com/) (Free)
+
+[loki](https://github.com/grafana/loki) (Open Source)
 
 ## Testing
 
-dbunit
+[dbunit](http://www.dbunit.org/) (Open Source)
 
-dbfit
+[dbfit](http://dbfit.github.io/dbfit/index.html) (Open Source)
+
+[inspec](https://www.inspec.io/) (Open Source)
 
 ## SQL Clients
 
-dbeaver
+[dbeaver](https://dbeaver.io/) (Open Source)
 
-dbvis
+[dbvis](https://www.dbvis.com/) (Free)
 
-omnidb
+[omnidb](https://omnidb.org/en/) (Open Source)
 
-sql workbench/j
+[sql workbench/j](http://www.sql-workbench.eu/) (Open Source)
 
-squirrelsql
+[squirrelsql](http://www.squirrelsql.org/) (Open Source)
 
 ## ORM
 
-automatic-api
+[gorm](https://gorm.io/) (Open Source)
 
-gorm
+[hibernate](https://hibernate.org/orm/) (Open Source)
 
-her
+[prisma](https://www.prisma.io/) (Open Source)
 
-hibernate
+[sandman2](https://github.com/jeffknupp/sandman2) (Open Source)
 
-postgrest
+[sequel](https://github.com/jeremyevans/sequel) (Open Source)
 
-prisma
+[sequelize](https://sequelize.org/) (Open Source)
 
-sandman2
-
-sequelize
-
-sqlalchemy
+[sqlalchemy](https://www.sqlalchemy.org/) (Open Source)
 
 ## Management Utilities
 
-percona toolkit
+[percona toolkit](https://www.percona.com/software/database-tools/percona-toolkit) (Open Source)
 
 ## Articles, Posts, and E-books
 
-The Google SRE Book https://landing.google.com/sre/sre-book/toc/
+[The Google SRE Book](https://landing.google.com/sre/sre-book/toc/)
 
-https://books.google.ie/books?id=L4o7DwAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+[The DBRE Book](https://books.google.ie/books?id=L4o7DwAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)
 
-https://softwareengineeringdaily.com/2018/10/16/an-introduction-to-database-reliability/
+[An introduction to database reliability engineering](https://softwareengineeringdaily.com/2018/10/16/an-introduction-to-database-reliability/)
 
-Velocity conference slides http://velocity.oreilly.com.cn/2016/ppts/DatabaseReliabilityEngineering.pdf
+[Laine Campbell's Velocity 2016 conference slides](http://velocity.oreilly.com.cn/2016/ppts/DatabaseReliabilityEngineering.pdf)
 
-https://conferences.oreilly.com/velocity/devops-web-performance-2015/public/schedule/detail/41147
+[Criteo - How we went from just a bunch of engineers to data reliability engineering](https://labs.criteo.com/2018/06/from-just-a-bunch-of-engineers-to-data-reliability-engineering/)
 
-https://labs.criteo.com/2018/06/from-just-a-bunch-of-engineers-to-data-reliability-engineering/
-
-https://newbiedba.wordpress.com/category/database-reliability-engineering/
+[The Newbie DBA](https://newbiedba.wordpress.com/category/database-reliability-engineering/)
 
 ## Podcasts
 
-Database Reliability Engineering https://softwareengineeringdaily.com/2018/06/20/database-reliability-engineering-with-laine-campbell/
+[Database Reliability Engineering](https://softwareengineeringdaily.com/2018/06/20/database-reliability-engineering-with-laine-campbell/)
 
-https://softwareengineeringdaily.com/2017/03/01/parse-and-operations-with-charity-majors/
+[Parse and Ops](https://softwareengineeringdaily.com/2017/03/01/parse-and-operations-with-charity-majors/)
 
 ## Videos
 
-https://www.youtube.com/watch?v=lsiI8AIzLrE
+[Surge 2015: DBRE, Modernizing the DBA Role](https://www.youtube.com/watch?v=lsiI8AIzLrE)
 
-https://littlekendra.com/2019/12/18/database-reliability-engineering-22-minute-video/
+[Kendra Little's Whiteboard on DBRE](https://littlekendra.com/2019/12/18/database-reliability-engineering-22-minute-video/)
 
-https://softwareengineeringdaily.com/2018/04/10/database-chaos-with-tammy-butow/
+[Database Chaos with Tammy Butow](https://softwareengineeringdaily.com/2018/04/10/database-chaos-with-tammy-butow/)
 
 ## Shameful Self-Promotion
 
-https://medium.com/@william.wheeler_87363/dbre-what-is-your-mvp-fb8b5f79a19c
+[What is your MVP?](https://medium.com/@william.wheeler_87363/dbre-what-is-your-mvp-fb8b5f79a19c)
 
-https://medium.com/@william.wheeler_87363/dbre-the-monitoring-of-monitoring-be006788bf23
+[The monitoring of monitoring](https://medium.com/@william.wheeler_87363/dbre-the-monitoring-of-monitoring-be006788bf23)
