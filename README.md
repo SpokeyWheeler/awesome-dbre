@@ -83,6 +83,8 @@ A curated list of awesome free and open-source tools for and knowledge about dat
 
 [dbfit](http://dbfit.github.io/dbfit/index.html) unit tests for databases using the Fitnesse framework (Open Source, jdbc, .net)
 
+[dbbench](https://github.com/sj14/dbbench) simple load testing using scripts (Open Source, go)
+
 [faker](https://github.com/joke2k/faker) generate fake data (Open Source, python)
 
 [inspec](https://www.inspec.io/) compliance testing (Open Source, ruby)
