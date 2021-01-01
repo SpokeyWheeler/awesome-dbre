@@ -1,4 +1,7 @@
 # Awesome DBRE
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8c5ef1675e4d47e180c62bc0893bc56f)](https://app.codacy.com/manual/Zinaida/awesome-dbre?utm_source=github.com&utm_medium=referral&utm_content=SpokeyWheeler/awesome-dbre&utm_campaign=Badge_Grade_Dashboard)
+
 A curated list of awesome free and open-source tools for and knowledge about database reliability engineering
 
 ## Automation
