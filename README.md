@@ -3,7 +3,19 @@ A curated list of awesome free and open-source tools for and knowledge about dat
 
 ## Automation
 
+[rundeck](https://www.rundeck.com/open-source) runbook automation
 
+[stackstorm](https://stackstorm.com) automate all the things!
+
+## Continuous Integration
+
+[buddy](https://buddy.works) GUI CI, fast, but no free parallelisation, GUI to YAML is a one-way trip
+
+[circle-ci](https://circleci.com) solid CI, great support engineers, ORBs prepackage functionality (really outstanding support!)
+
+[semaphoreci](https://semaphoreci.com) fast, simple, parallelised, flexible CI, GUI syncs bidirectionally with a YAML file (did I mention it's fast?)
+
+[travis-ci](https://travis-ci.com) solid, venerable, old-school, simple
 
 ## Version Control for Databases (AKA Schema Migration)
 
