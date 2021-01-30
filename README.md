@@ -13,7 +13,7 @@ A curated list of awesome free and open-source tools for and knowledge about dat
 
 [circle-ci](https://circleci.com) solid CI, great support engineers, ORBs prepackage functionality (really outstanding support!)
 
-[semaphoreci](https://semaphoreci.com) fast, simple, parallelised, flexible CI, GUI syncs bidirectionally with a YAML file (did I mention it's fast?)
+[semaphoreci](https://semaphoreci.com) fast, simple, parallelised, flexible CI, GUI syncs bidirectionally with a YAML file (did I mention it's fast?) 😍
 
 [travis-ci](https://travis-ci.com) solid, venerable, old-school, simple
 
@@ -147,6 +147,12 @@ A curated list of awesome free and open-source tools for and knowledge about dat
 
 [autodoc](https://github.com/cbbrowne/autodoc) schema documenter (Open Source, postgresql)
 
+[explain](https://explain.depesz.com) more readable PostgreSQL explain plans
+
+[tree](http://tatiyants.com/postgres-query-plan-visualization/) hierarchical PostgreSQL explain plans
+
+[pg_flame](https://github.com/mgartner/pg_flame) view your PostgreSQL explain plan as a flame graph
+
 [schemacrawler](https://github.com/schemacrawler/SchemaCrawler) text-format schema documentation and linting
 
 [schemaspy](https://github.com/schemaspy/schemaspy) super cool HTML documentation of your database
@@ -164,6 +170,8 @@ A curated list of awesome free and open-source tools for and knowledge about dat
 [Criteo - How we went from just a bunch of engineers to data reliability engineering](https://labs.criteo.com/2018/06/from-just-a-bunch-of-engineers-to-data-reliability-engineering/)
 
 [The Newbie DBA](https://newbiedba.wordpress.com/category/database-reliability-engineering/)
+
+[Producing flame graphs for Oracle explain plans](https://tanelpoder.com/posts/visualizing-sql-plan-execution-time-with-flamegraphs/) by Tanel Poder
 
 ## Podcasts
 
