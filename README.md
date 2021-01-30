@@ -184,3 +184,5 @@ A curated list of awesome free and open-source tools for and knowledge about dat
 [What is your MVP?](https://medium.com/@william.wheeler_87363/dbre-what-is-your-mvp-fb8b5f79a19c)
 
 [The monitoring of monitoring](https://medium.com/@william.wheeler_87363/dbre-the-monitoring-of-monitoring-be006788bf23)
+
+[batcher](https://github.com/SpokeyWheeler/batcher) database-friendly bulk updates or deletes
