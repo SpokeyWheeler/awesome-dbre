@@ -147,6 +147,10 @@ A curated list of awesome free and open-source tools for and knowledge about dat
 
 [autodoc](https://github.com/cbbrowne/autodoc) schema documenter (Open Source, postgresql)
 
+[schemacrawler](https://github.com/schemacrawler/SchemaCrawler) text-format schema documentation and linting
+
+[schemaspy](https://github.com/schemaspy/schemaspy) super cool HTML documentation of your database
+
 ## Articles, Posts, and E-books
 
 [The Google SRE Book](https://landing.google.com/sre/sre-book/toc/)
